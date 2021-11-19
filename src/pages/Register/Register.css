@@ -1,0 +1,40 @@
+.registerpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  height: 40vh;
+  width: 40vw;
+}
+.form-wrapper {
+    position: relative;
+}
+.form-notice{
+    font-weight: 700;
+    color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 69px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.form-notice_custom{
+    left: 88px;
+}
+
+@media screen and (max-width: 700px) {
+  .login-form {
+    height: auto;
+    width: auto;
+  }
+  .form-notice {
+    font-weight: 700;
+    color: blue;
+    position: absolute;
+    bottom: 4px;
+    left: 69px;
+    text-decoration: underline;
+    font-size: 0.7rem;
+}
+}

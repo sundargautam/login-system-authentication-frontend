@@ -1,0 +1,16 @@
+.loginpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  height: 40vh;
+  width: 40vw;
+}
+
+@media screen and (max-width: 700px) {
+  .login-form {
+    height: auto;
+    width: auto;
+  }
+}
