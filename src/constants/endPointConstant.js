@@ -1,1 +1,1 @@
-export const API_URL = "http://localhost:8080/api/auth/";
+export const API_URL = "https://mern-login.herokuapp.com/api/auth/";
